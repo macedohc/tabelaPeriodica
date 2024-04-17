@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .periodic-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .periodic-table th {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .periodic-table td {
+    padding: 5px 2px 8px 2px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  
+  .periodic-table th {
+    background-color: #ab8fb6;
+  }
+  
+  .side-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px 10px 0 260px;
+  }
+  
+  .side-table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  
+  .rosapastel {
+    background-color: #ffd1dc;
+    color: rgb(204, 88, 107);
+  }
+  
+  .verde-agua {
+    background-color: #aaf0d1;
+    color: rgb(30, 105, 30);
+  }
+  
+  .lilas {
+    background-color: #e6e6fa;
+    color: rgb(158, 64, 153);
+  }
+  
+  .pistache {
+    background-color: #c0ce47;
+    color: rgb(23, 61, 18);
+  }
+  
+  .red {
+    background-color: rgb(250, 212, 212);
+    color: rgb(107, 25, 25);
+  }
+  
+  .lavanda {
+    background-color: #e6e6fa
+    ;
+    color: rgb(86, 40, 92);
+  }
+  
+  .amarelo-claro {
+    background-color: #ffffcc;
+    color: rgb(136, 136, 54);
+  }
+  
+  .pessego {
+    background-color: #ffdab9;
+    color: rgb(196, 110, 30);
+  }
+  
+  .azul-bebe {
+    background-color: #b0e0e6;
+    color: rgb(53, 43, 143);
+  }
+  
+  .atomic-number {
+    font-size: 11px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+  }
+  
+  .symbol {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .name {
+    font-size: 10px;
+    letter-spacing: 0.3px;
+  }
+  
+  .two-atomic-numbers {
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+  }
+  
+  .two-symbol {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .side-table {
+      margin: 20px 0 0 35px;
+    }
+  }
+  
+  @media screen and (width > 1200px) and (width < 1350px) {
+    .side-table {
+      margin: 20px 0 0 80px;
+    }
+  }
